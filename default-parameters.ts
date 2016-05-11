@@ -10,7 +10,7 @@ acceptParameters();
 acceptParameters(4, 5, 6);
 
 //Using default parameters
-function acceptParametersWithDefaults(a = 1, b = 2, c = 3) {
+function acceptParametersWithDefaults(a = 1, b = 2, c = 1 + 2) { //Can add expressions as well.
     console.log(`a: ${a}, b: ${b}, c: ${c}`);
 }
 
