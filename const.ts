@@ -14,3 +14,16 @@ function myFunction() {
 }
 
 myFunction();
+
+const myObj = {
+    "name": "John"
+};
+
+console.log(myObj.name);
+
+//The object elements can be modified
+myObj.name = "Eden";
+
+console.log(myObj.name);
+
+//myObj = {}; //throws read-only exception
