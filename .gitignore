@@ -2,3 +2,4 @@
 .idea
 *.js.map
 *.js
+!spread-operator.js
